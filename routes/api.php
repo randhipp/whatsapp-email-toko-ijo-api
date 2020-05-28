@@ -14,5 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('v1/receiver', 'Api\v1\ReceiverController@index');
-// Route::middleware('api')->get('v1/receiver', 'Api\v1\ReceiverController@index');
+Route::middleware('api')->get('v1/receiver', 'Api\v1\ReceiverController@index');
