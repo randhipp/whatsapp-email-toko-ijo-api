@@ -9,10 +9,11 @@ Api ini dibuat untuk mempermudah sortir email sebelum dipakai untuk mass mailer.
 3. Search by year of birth
 
 ### How To :
-1. edit `.env` , sesuaikan dengan database postgres milik anda yang sudah ada database toko ijo
-2. composer install
-3. php artisan optimize
-4. php artisan serve ( url => localhost:8000 )
+1. copy `.env.example` ke `.env`
+2. edit `.env` , sesuaikan dengan database postgres milik anda yang sudah ada database toko ijo
+3. composer install
+4. php artisan optimize
+5. php artisan serve ( url => localhost:8000 )
 
 ### API url :
 GET : `{url}/api/v1/receiver`
